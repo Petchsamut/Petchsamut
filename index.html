@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petchsamut</title>
+ </head>
+ <body>
+    <style>
+    body {
+        background-color: rgba(231, 177, 233, 0.479);
+      }
+      h1 {
+        color: black;
+        text-align: center;
+        font-size: 50px;
+        font-family: Itim;
+      }    
+      p {
+        font-family: Itim;
+        font-size: 20px;
+      }      
+    </style>
+    <h1>ประวัติของฉัน</h1>
+    <p>ชื่อ-นามสกุล : เพชรสมุทร บุตรบุญแก้ว</p>
+    <p>อายุ : 21 ปี</p>
+    <p>ชื่อบริษัท/หน่วยงาน : โรงเรียนวัดรัชฎาธิฐาน</p>
+    <p>ตำแหน่งงาน : เจ้าพนักงานธุรการ</p>
+    <p>จบการศึกษาจาก : วิทยาลัยพณิชยการธนบุรี</p>
+    <p>แรงบันดาลใจ  : ทำเพื่อเงิน</p> 
+    <p id="demo">งานอดิเรก : </p>
+    <button
+        type="button"
+        onclick="document.getElementById('demo').innerHTML = 'งานอดิเรก : ดูหนัง, ฟังเพลง, เล่นเกม'"
+    >
+        งานอดิเรก
+    </button>
+    <br />
+    <button
+        type="button"
+        onclick="document.getElementById('demo').innerHTML = 'สิ่งที่ชอบ : เงิน, อาหาร'"
+    >
+        สิ่งที่ชอบ
+    </button>    
+ </body>
+</html>
